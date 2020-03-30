@@ -1,0 +1,117 @@
+.UintHeader{
+    height: 92px;
+    // overflow: hidden;
+    text-align: center;
+    font-size: 33px;
+    background: #FFF;
+    line-height: 92px;
+    color: #000;
+    position: relative;
+    span{
+        display: inline-block;
+    }
+    .header-let{
+        position: absolute;
+        left: 22px;
+    }
+    .header-rigt{
+        position: absolute;
+        top: 0px;
+        right: 14px;
+    }
+    .goBack{
+        width: 18px;
+        height: 33px;
+        background: url('../img/goBack_icon.png')no-repeat;
+        background-size: 100% 100%;
+        margin-left: 14px;
+        
+    }
+    .goHome{
+        display: inline-block;
+        width: 35px;
+        height: 33px;
+        background: url('../img/home_icon.png')no-repeat;
+        background-size: 100% 100%;
+        margin-left: 35px;
+    }
+    .filter_icon{
+        display: inline-block;
+        width: 35px;
+        height: 33px;
+        background: url('../img/filter_icon.png')no-repeat;
+        background-size: 100% 100%;
+        margin-left: 28px;
+        position: relative;
+        top: 6px;
+    }
+}
+.UintBottomFun{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+    font-size: 25px;
+    padding: 17px 14px;
+    background: #FFF;
+    box-sizing: border-box;
+
+    // line-height: 90px;
+    .funContent{
+        padding-top: 16px;
+    }
+    .funBnt{
+        span{
+            display: inline-block;
+            padding: 16px 56px;
+            border-radius: 50px;
+            margin-left: 14px;
+            color: #FFF;
+        }
+    }
+    .color1{
+        background-image: linear-gradient(to right, #2BB5FE,#1987E9 );
+    }
+    .color2{
+        background-image: linear-gradient(to right, #FB9494,#FF6565 );
+    }
+}
+.UintBottomTips{
+    font-size: 22px;
+    .funContent{
+        padding-top: 13px;
+    }
+    .funBnt{
+        span{
+            display: inline-block;
+            padding: 13px 35px;
+            border-radius: 50px;
+            margin-left: 14px;
+        }
+    }
+}
+.UintBuyCar{
+    position: fixed;
+    right: 0px;
+    bottom: 1.62rem;
+    width: 20px;  
+    margin: 0 auto;  
+    line-height: 30px;  
+    font-size: 28px;
+    text-align: center;
+    background: #13B5B1;
+    padding: 26px 22px;
+    color: #FFF;
+    .num{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: -17.5px;
+        top: -17.5px;
+        background: #E60012;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+    }
+
+}

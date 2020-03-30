@@ -1,0 +1,135 @@
+.utilComponents{
+    width: 100%;
+    overflow: auto;
+    background: #FFF;
+    .clearFloat{
+        overflow: hidden;
+    }
+    .radio_item{
+        float: left;
+        padding: 0.12rem;
+        background: #FFF;
+        min-width: 1.2rem;
+        margin-left: 0.15rem;
+        margin-top: 0.15rem;
+        border-radius: 0.1rem;
+        color: #ccc;
+        text-align: center;
+        border: 0.01rem solid #CCC;
+    }
+    .radio_checked{
+        background-color: #4171C3;
+        color: #FFF;
+        border: 0.01rem solid #4171C3;
+    }
+
+}
+.TabBar{
+    width: 100%;
+    overflow: auto;
+    padding: 0.15rem 0.3rem;
+    box-sizing: border-box;
+    background: #FFF;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    .filterTile{
+        float: left;
+        margin-right: 0.15rem;
+    }
+    .radio_item{
+        float: left;
+        background: #FFF;
+        width: 1.8rem;
+        color: #ccc;
+        border: 0.01rem solid #ccc;
+        border-radius: 0.1rem;
+        text-align: center;
+        margin-right: 0.23rem;
+    }
+    .radio_checked{
+        background-color: #E2EDFF;
+        color: #4171C3;
+        border: 0.01rem solid #4171C3;
+    }
+}
+.FilterUtil{
+    .clearFloat{
+        overflow: hidden;
+    }
+    .radio_item{
+        width: 30%;
+        margin-left: 2%;
+        float: left;
+        text-align: center;
+        border: 0.01rem solid #4171C3;
+        line-height: 0.8rem;
+        margin-top: 0.15rem;
+        color: #999;
+    }
+    .radio_checked{
+        background-color: #4171C3;
+        color: #FFF;
+        border: 0.01rem solid #4171C3;
+    }
+}
+.GetTime{
+    width: 100%;
+    z-index: 2;
+    .changeDate{
+        text-align: center;
+        background: #FFF;
+        .date{
+            display: inline-block;
+            width: 55.3%;
+            color: #999999;
+            font-size: .30rem;
+            line-height: .9rem;
+        }
+    }
+    
+    .leftbtn,.rightbtn{
+        vertical-align: middle;
+    }
+    .chooseMask{
+        width: 100%;
+        height: 100%;
+        background-color: #f5f5f5;
+        position: absolute;
+        top: 1.8rem;
+        left: 0;
+        z-index: 100;
+        text-align: left;
+        .com{
+            padding-left:8% ;
+            height: .95rem;
+            line-height: .95rem;
+            background-color: #ffffff;
+            border-bottom: .02rem solid #F5F5F5;
+        }
+        img{
+            // margin-left: 5.5rem;
+            vertical-align: middle;
+            display: inline-block;
+            width: 0.8rem;
+            height: 0.8rem;
+            float: right;
+        }
+    }
+    .date_picker{
+        margin-top: 0.3rem;
+        background: #FFF;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .date_picker_let{
+        background: #FFF;
+        width: 40%;
+        line-height: 0.9rem;
+        text-align: center;
+    }
+    .content{
+        padding: 0px;
+    }
+}

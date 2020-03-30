@@ -1,0 +1,85 @@
+.ListItem{
+    padding: 14px;
+    box-sizing: border-box;
+    .item{
+        background: #FFF;
+        padding: 35px 21px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-bottom: 21px;
+    }
+    .item-main{
+        overflow: hidden;
+    }
+    .itemM-img{
+        float: left;
+        width: calc((100% - 35px)/2);
+        height: 235px;
+    }
+    .itemM-content{
+        float: right;
+        width: calc((100% - 35px)/2);
+        // padding-left: 35px;
+        box-sizing: border-box;
+        height: 235px;
+    }
+    .itemM-content-title{
+        font-size: 28px;
+        color: #1B1B1B;
+    }
+    .itemM-content-content{
+        font-size: 22px;
+        color: #959595;
+        margin-top: 22px;
+        min-height: 100px;
+        overflow: hidden;
+        // text-overflow:ellipsis;
+        // white-space: nowrap;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    .itemM-content-fun{
+        font-size: 22px;
+        color: #1987E9;
+        margin-top: 22px;
+        span{
+            display: inline-block;
+            width: calc((100% - 34px)/3);
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            margin-right: 17px;
+            background: rgba(244,244,244,1);
+        }
+        span:last-child{
+            margin-right: 0px;
+        }
+        
+    }
+    .item-bottom{
+        font-size: 25px;    
+        color: #FFF;
+        line-height: 66px;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 28px;
+        span{
+            width: calc((100% - 35px)/2);
+            display: inline-block;
+        }
+        span:first-child{
+            background: #FEB542;
+        };
+        span:last-child{
+            background: #1987E9;
+        };
+        .addActive{
+            background: #C8CDD9!important;
+        }
+    }
+    // .itemM-content-fun>span:last-child{
+            
+    // }
+}

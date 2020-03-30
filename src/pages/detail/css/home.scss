@@ -1,0 +1,40 @@
+.authentication{
+    .bagImg{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .list_style{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        padding-top: 0.3rem;
+        box-sizing: border-box;
+    }
+    .am-list-thumb img{
+        width: 1rem;
+        height: 1rem;
+    }
+   .list_state{
+    position: absolute;
+	width: 1.2rem;
+	height: 0.53rem;
+	right: 0.73rem;
+	top: 50%;
+	margin-top: -0.265rem;
+	background: url('../img/certified.png')no-repeat;
+	background-size: 100% 100%;
+	//display: none;
+   }
+   .rightArrow_icon{
+    position: absolute;
+	width: 0.32rem;
+	height: 0.32rem;
+	right: 0.25rem;
+	top: 50%;
+	margin-top: -0.16rem;
+	background: url('../img/rightArrow.png')no-repeat;
+	background-size: 100% 100%;
+   }
+    
+}
